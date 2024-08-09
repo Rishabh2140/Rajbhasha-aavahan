@@ -1,14 +1,17 @@
-// src/App.js
-import React from 'react';
-import Parallax from './parallax/parallax';
-import './App.css';
+import { Outlet } from 'react-router-dom'
 
-const App = () => {
+import Navbar3 from './pages/components/Navbar3'
+
+import './App.css'
+
+function App() {
   return (
-    <div>
-      <Parallax />
-    </div>
-  );
-};
+    <>
+      <Navbar3 />
+      <Outlet />
 
-export default App;
+    </>
+  )
+}
+
+export default App

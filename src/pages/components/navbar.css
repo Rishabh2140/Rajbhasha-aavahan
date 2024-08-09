@@ -1,0 +1,43 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    filter: blur();
+    z-index: 120;
+
+}
+
+.navbar ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    z-index: 120;
+
+
+}
+
+.banner-title {
+
+    text-align: center;
+    font-weight: bolder;
+    padding: 0.5rem;
+    margin: 20px;
+    font-size: 1.5rem;
+    z-index: 120;
+    color: rgb(255, 255, 255);
+}
+
+ol,
+il {
+    list-style: none;
+    color: rgb(238, 248, 248);
+
+    z-index: 120;
+}
